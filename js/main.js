@@ -9,9 +9,9 @@ $(function() {
 
   $(window).resize(function() {
     var w = $(this).width();
-    if (w > 480 && menu.is(':hidden')) {
-      menu.removeAttr('style');
-    }
+    // if (w > 480 && menu.is(':hidden')) {
+    //   menu.removeAttr('style');
+    // }
   });
 
   $('nav li').on('click', function(e) {
