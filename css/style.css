@@ -126,7 +126,7 @@ footer .footer-bottom {
 }
 
 .btn-primary {
-  background: var(--primary-color);
+  background: var(--primary-color-hover);
 }
 
 .btn-primary:hover {
